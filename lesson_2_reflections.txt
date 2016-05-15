@@ -25,6 +25,9 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	Diagrams show the graph structure of the repo (i.e. the graph of commit
+	parent-child relationships).
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
