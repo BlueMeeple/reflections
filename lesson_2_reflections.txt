@@ -31,5 +31,10 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The result is that we combine the features of both branches, relative to
+	their common ancestor at which they diverged.
+	We represent it as a multi-parent node in a DAG because it builds on the
+	changes in all parent commits.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
