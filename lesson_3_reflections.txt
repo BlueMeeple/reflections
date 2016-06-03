@@ -31,7 +31,13 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without any source control system, collaboration would be difficult.
+    Files would have to be shared either over a network files system (e.g. NFS)
+    or by sending copies back and forth.  Participants would either have to
+    agree on exclusive editing privileges when editing, or perform manual
+    merges.
+    While collaboration itself would be harder, working locally would be
+    slightly easier (no need to manually commit, etc.).
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
