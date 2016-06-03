@@ -42,4 +42,11 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    One reason to make changes in a non-master branch is necessity: if you do
+    not have permission to push to master, then you can only push to your own
+    branch.
+    Another reason to develop in a separate branch is to allow for the ongoing
+    development of a new feature that is complicated or that you may decide not
+    to merge into master.
+    Otherwise, for smaller changes (such as bug fixes), making changes to master
+    directly is more convenient because it involves fewer checkout and merges.
